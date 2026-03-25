@@ -1,88 +1,102 @@
 ---
 layout: default
-title: Home
+title: Seattle Baseball Academy
 ---
 
 <section class="hero">
-    <span class="hero-label">Play Ball</span>
-    <h1>Seattle Baseball Academy</h1>
-    <p>The <strong>Seattle Baseball Academy</strong> is the premier youth baseball club in the Pacific Northwest. Players develop through great coaching, elite competition, and a year-round training facility.</p>
-    <p>Launched in 2009 as <strong>City Baseball</strong>, we are known as a welcoming, supportive community that cares about players both on and off the field.</p>
-    <a href="{{ '/programs/' | relative_url }}" class="btn btn-primary">View Programs</a>
+    <div class="hero-content">
+        <span class="hero-label">Play Ball</span>
+        <h1>The Seattle Baseball Academy</h1>
+        <p>The <strong>Seattle Baseball Academy</strong> is the premier youth baseball club in the Pacific Northwest. Players develop through great coaching, elite competition, and a year-round training facility.</p>
+        <p>Launched in 2009 as <strong>City Baseball</strong>, we are known as a welcoming, supportive community that cares about players both on and off the field.</p>
+    </div>
 </section>
 
-<section class="section-alt">
-    <div class="section-header">
-        <h2>Programs</h2>
-        <p>With exclusive use of our 14,000-square-foot indoor training facility, we play baseball in Seattle year round.</p>
-    </div>
-    <div class="programs-grid">
-        <div class="program-card">
-            <h3>Private Instruction</h3>
-            <p>One-on-one training with our experienced coaches to develop specific skills and techniques.</p>
-            <a href="{{ '/programs/private-instruction/' | relative_url }}">Learn More →</a>
+<section class="programs-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Programs</h2>
+            <p>With exclusive use of our 14,000-square-foot, indoor training facility, we play baseball in Seattle year round. Our instructors help players ages 8 to 18 improve game-specific skills, strength, and conditioning.</p>
+            <p>Choose from <a href="{{ '/programs/' | relative_url }}#instruction">Private Instruction</a>, <a href="{{ '/programs/' | relative_url }}#camps">Camps & Clinics</a>, <a href="{{ '/programs/' | relative_url }}#cubs">Cubs & Bears</a>, <a href="{{ '/programs/' | relative_url }}#sim">Sim League</a>, and the <a href="{{ '/programs/' | relative_url }}#hitting">Todd Linden Hitting Group</a>.</p>
         </div>
-        <div class="program-card">
-            <h3>Camps & Clinics</h3>
-            <p>Seasonal camps and focused clinics for players looking to improve during breaks.</p>
-            <a href="{{ '/programs/camps-clinics/' | relative_url }}">Learn More →</a>
-        </div>
-        <div class="program-card">
-            <h3>Cubs & Bears</h3>
-            <p>Introduction programs for our youngest players learning the fundamentals of baseball.</p>
-            <a href="{{ '/programs/cubs-bears/' | relative_url }}">Learn More →</a>
-        </div>
-        <div class="program-card">
-            <h3>Sim League</h3>
-            <p>Competitive simulation league for year-round game experience and development.</p>
-            <a href="{{ '/programs/sim-league/' | relative_url }}">Learn More →</a>
-        </div>
+        <a href="{{ '/programs/' | relative_url }}" class="btn btn-primary">Learn More</a>
     </div>
 </section>
 
 <section class="quote-section">
     <blockquote>"It's a great place to improve your game, and teammates are there to support and push you."</blockquote>
-    <cite>— Seattle Baseball Academy Player</cite>
 </section>
 
-<section>
-    <div class="section-header">
-        <h2>Our Instructors</h2>
-        <p>Learn from coaches with professional playing experience and a passion for player development.</p>
+<section class="instructors-section">
+    <div class="container">
+        <div class="instructors-carousel">
+            <div class="instructor-slide">
+                <div class="instructor-card-home">
+                    <div class="instructor-photo">⚾</div>
+                    <div class="instructor-info">
+                        <h3>Jake Phillips</h3>
+                        <p class="title">Senior Instructor and Head Coach 15U to 18U</p>
+                        <p>Jake's responsibilities include recruiting, working with hitters/infielders, and coaching third base.</p>
+                        <a href="{{ '/about/instructors/' | relative_url }}">Meet Our Instructors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="instructor-slide">
+                <div class="instructor-card-home">
+                    <div class="instructor-photo">⚾</div>
+                    <div class="instructor-info">
+                        <h3>Rick Relano</h3>
+                        <p class="title">Senior Instructor, Camp Director, and Head Coach</p>
+                        <p>Rick takes an academic approach to coaching baseball, taking advantage of every opportunity to learn and improve his skills as a baseball coaching.</p>
+                        <a href="{{ '/about/instructors/' | relative_url }}">Meet Our Instructors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="instructor-slide">
+                <div class="instructor-card-home">
+                    <div class="instructor-photo">⚾</div>
+                    <div class="instructor-info">
+                        <h3>Owen Leonard</h3>
+                        <p class="title">Strength and Conditioning Director, 18U Head Coach</p>
+                        <p>Owen began as the Strength and Conditioning and Head Coach in 2022 following the close of his four-year career on the pitching staff at WSU.</p>
+                        <a href="{{ '/about/instructors/' | relative_url }}">Meet Our Instructors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="instructor-slide">
+                <div class="instructor-card-home">
+                    <div class="instructor-photo">⚾</div>
+                    <div class="instructor-info">
+                        <h3>Todd Linden</h3>
+                        <p class="title">Off-Season Program Lead and Underclass Head Coach</p>
+                        <p>Todd is responsible for running the off-season program for our most competitive teams.</p>
+                        <a href="{{ '/about/instructors/' | relative_url }}">Meet Our Instructors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="instructor-slide">
+                <div class="instructor-card-home">
+                    <div class="instructor-photo">⚾</div>
+                    <div class="instructor-info">
+                        <h3>Wes Long</h3>
+                        <p class="title">President, Director of Coaching and Instruction</p>
+                        <p>Wes is a two-time, All-American shortstop and pitcher. He played 8 years of professional baseball, and has coached and scouted players at all levels since 2011.</p>
+                        <a href="{{ '/about/instructors/' | relative_url }}">Meet Our Instructors</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="instructors-grid">
-        <div class="instructor-card">
-            <div class="instructor-photo">⚾</div>
-            <div class="instructor-info">
-                <h3>Wes Long</h3>
-                <p class="title">President, Director of Coaching</p>
-                <p>Two-time All-American shortstop and pitcher. 8 years of professional baseball experience.</p>
-            </div>
-        </div>
-        <div class="instructor-card">
-            <div class="instructor-photo">⚾</div>
-            <div class="instructor-info">
-                <h3>Jake Phillips</h3>
-                <p class="title">Senior Instructor & Head Coach 15U-18U</p>
-                <p>Recruiting, working with hitters/infielders, and coaching third base.</p>
-            </div>
-        </div>
-        <div class="instructor-card">
-            <div class="instructor-photo">⚾</div>
-            <div class="instructor-info">
-                <h3>Owen Leonard</h3>
-                <p class="title">Strength & Conditioning Director</p>
-                <p>Former WSU pitching staff. Four-year collegiate career.</p>
-            </div>
-        </div>
-    </div>
-    <p style="text-align: center; margin-top: 2rem;">
-        <a href="{{ '/instructors/' | relative_url }}" class="btn btn-primary">Meet All Instructors</a>
-    </p>
 </section>
 
-<section class="cta-section">
-    <h2>Ready to Play?</h2>
-    <p>Join the premier youth baseball program in the Pacific Northwest.</p>
-    <a href="{{ '/contact/' | relative_url }}" class="btn">Contact Us</a>
+<section class="cta-buttons">
+    <a href="https://citybaseball.sportngin.com/register/form/915362829" class="cta-btn" target="_blank">Camp Registration</a>
+    <a href="https://citybaseball.sportngin.com/" class="cta-btn" target="_blank">Team Registration</a>
+    <a href="https://citybaseball.myesoftplanner.com/auth/login" class="cta-btn" target="_blank">Private Instruction</a>
+</section>
+
+<section class="cta-buttons secondary">
+    <a href="#" class="cta-btn">Team Store</a>
+    <a href="#" class="cta-btn">Subscribe</a>
+    <a href="#" class="cta-btn">Donate</a>
 </section>
