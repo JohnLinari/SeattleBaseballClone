@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ '/' | relative_url }}" class="logo">Seattle Baseball Academy</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li class="has-dropdown">
+                    <a href="{{ '/programs/' | relative_url }}" {% if page.url contains 'programs' %}class="active"{% endif %}>Programs</a>
+                    <ul class="dropdown">
+                        <li><a href="{{ '/programs/private-instruction/' | relative_url }}">Private Instruction</a></li>
+                        <li><a href="{{ '/programs/camps-clinics/' | relative_url }}">Camps & Clinics</a></li>
+                        <li><a href="{{ '/programs/cubs-bears/' | relative_url }}">Cubs & Bears</a></li>
+                        <li><a href="{{ '/programs/sim-league/' | relative_url }}">Sim League</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+                <li><a href="{{ '/instructors/' | relative_url }}" {% if page.url == '/instructors/' %}class="active"{% endif %}>Instructors</a></li>
+                <li><a href="{{ '/facility/' | relative_url }}" {% if page.url == '/facility/' %}class="active"{% endif %}>Facility</a></li>
+                <li><a href="{{ '/alumni/' | relative_url }}" {% if page.url == '/alumni/' %}class="active"{% endif %}>Alumni</a></li>
+                <li><a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="{{ '/contact/' | relative_url }}">Contact Us</a>
+            </div>
+            <p>&copy; 2026 Seattle Baseball Academy</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

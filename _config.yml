@@ -1,0 +1,12 @@
+title: Seattle Baseball Academy
+description: The premier youth baseball club in the Pacific Northwest
+url: https://johnlinari.github.io
+baseurl: /SeattleBaseballClone
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
