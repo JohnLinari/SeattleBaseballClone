@@ -386,11 +386,11 @@ nav {
 .cta-links {
     display: flex;
     justify-content: center;
-    background: var(--dark);
+    background: #1b2e5a;
 }
 
 .cta-links.secondary {
-    background: var(--gray-dark);
+    background: #1b2e5a;
 }
 
 .cta-links a {
