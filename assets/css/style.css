@@ -860,6 +860,93 @@ td {
     padding: 18px;
 }
 
+/* ==================== PROGRAMS PAGE ==================== */
+.programs-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.programs-intro p {
+    font-size: 18px;
+    line-height: 1.9;
+    color: var(--gray);
+}
+
+.program-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+}
+
+.program-section.alt {
+    direction: rtl;
+}
+
+.program-section.alt > * {
+    direction: ltr;
+}
+
+.program-image {
+    background: var(--dark);
+}
+
+.program-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.program-content {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--off-white);
+}
+
+.program-section.alt .program-content {
+    background: var(--white);
+}
+
+.program-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--dark);
+}
+
+.program-content p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+
+.program-content .btn {
+    align-self: flex-start;
+}
+
+@media (max-width: 992px) {
+    .program-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .program-section.alt {
+        direction: ltr;
+    }
+    
+    .program-image {
+        max-height: 300px;
+        overflow: hidden;
+    }
+    
+    .program-content {
+        padding: 40px 30px;
+    }
+}
+
 /* ==================== HIGHLIGHT SECTION ==================== */
 .highlight-section {
     background: var(--dark);
