@@ -7,12 +7,9 @@ title: Alumni
     <h1>Alumni</h1>
 </section>
 
-<section class="content">
-
-We are proud that many of our players have continued to play baseball at the next level. Some are now even playing professionally!
-
-Below is a listing of alumni who have played college baseball. Congratulations and good luck!
-
+<section class="alumni-intro">
+    <p>We are proud that many of our players have continued to play baseball at the next level. Some are now even playing professionally!</p>
+    <p>Below is a listing of alumni who have played college baseball. Congratulations and good luck!</p>
 </section>
 
 <section class="alumni-stats">
@@ -21,23 +18,21 @@ Below is a listing of alumni who have played college baseball. Congratulations a
     <div class="stats-grid">
         <div class="stat-item">
             <span class="stat-number">30+</span>
-            <span class="stat-label">High Schools</span>
+            <span class="stat-name">High Schools</span>
         </div>
         <div class="stat-item">
             <span class="stat-number">200+</span>
-            <span class="stat-label">College Players</span>
+            <span class="stat-name">College Players</span>
         </div>
         <div class="stat-item">
             <span class="stat-number">15+</span>
-            <span class="stat-label">D1 Programs</span>
+            <span class="stat-name">D1 Programs</span>
         </div>
     </div>
-    <p>Read about our <a href="{{ '/programs/' | relative_url }}">College Placement Program</a></p>
+    <a href="{{ '/programs/' | relative_url }}">Read about our College Placement Program</a>
 </section>
 
-<section class="content alumni-lists">
-
-<div class="featured-commit">
+<section class="featured-commit">
     <h2>2023 Commitment</h2>
     <div class="featured-player">
         <h3>Reeve Boyd</h3>
@@ -46,7 +41,9 @@ Below is a listing of alumni who have played college baseball. Congratulations a
         <p><strong>Oregon State University</strong></p>
         <p>Corvallis, OR</p>
     </div>
-</div>
+</section>
+
+<section class="alumni-tables">
 
 ## Class of 2025
 

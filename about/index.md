@@ -36,7 +36,7 @@ The Seattle Baseball Academy develops youth baseball players from ages 8 to 18. 
 </section>
 
 <section class="mission-section">
-    <p class="mission-text">Our mission is to develop young baseball players through professional instruction, elite competition, and year-round training.</p>
+    <p>Our mission is to develop young baseball players through professional instruction, elite competition, and year-round training.</p>
 </section>
 
 <section class="content">
@@ -57,9 +57,9 @@ The organization maintains strong relationships within the baseball community, i
     <h2>News</h2>
     <p>Get updates on all the big wins, alumni successes, and registration deadlines delivered to your email.</p>
     <form class="subscribe-form">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="email" placeholder="Email">
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit" class="btn">Subscribe</button>
     </form>
 </section>
